@@ -56,8 +56,8 @@ namespace integerWebApplication.Controllers
                         ViewBag.Cars = select;*/
 
             //SOAL 1
-            /*var soal1 = cars.Where(x => x.Brand == "Honda").FirstOrDefault();
-            ViewBag.Cars = new List<Models.Car>() { soal1 };*/
+            var soal1 = cars.Where(x => x.Brand == "Honda").FirstOrDefault();
+            ViewBag.Cars = new List<Models.Car>() { soal1 };
 
             //SOAL 2
             /*var soal2 = cars.Where(x => (x.Brand == "Honda" && x.Type == "Sedan"));
@@ -79,7 +79,7 @@ namespace integerWebApplication.Controllers
             /*var soal6 = cars.Where(x => x.Type == "Sedan");
             ViewBag.Cars = soal6;*/
 
-            return View(cars);
+            return View();
         }
     }
 }

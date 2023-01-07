@@ -20,7 +20,7 @@ namespace integerWebApplication.Controllers
             student.Add(new Student()
             {
                 Id = 2,
-                Name = "Putri Gumelar",
+                Name = "Nasya",
                 Addres = "Cirebon",
                 PhoneNumber = "08921412412421"
             });
